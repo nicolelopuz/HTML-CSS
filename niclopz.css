@@ -1,0 +1,237 @@
+::-webkit-scrollbar {
+width: 6px;
+background-color: rgb(230,230,230);
+}
+::-webkit-scrollbar-thumb {
+background-color: rgb(0,180,204);
+background-repeat: repeat;
+-webkit-border-radius: 0px;
+min-height: 2px;
+}
+
+body{
+background: rgb(250,250,250) url('');
+font: 12px 'Maven Pro', sans-serif;
+color: rgb(108,108,108);
+line-height: 150%; 
+text-align: justify; 
+padding: 10px;
+}
+
+b { font-weight:bold; color: #000;}
+i { font-style:italic; }
+wu { color: #fff; border-bottom: 1px solid #000;}
+w {color: #fff;}
+g { color: #C0C0C0;}
+
+a:link, a:visited, a:active{ 
+font: 12px 'Maven Pro', sans-serif;
+color: rgb(0,180,204); 
+text-decoration:none;
+-webkit-transition-duration: 0.3s;
+cursor: help;
+}
+a:hover{ 
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+
+hey:nth-child(1){
+ padding-left: 173px; 
+}
+
+hey:nth-child(n+2){
+ padding-left: 278px;
+}
+
+.e {
+position: absolute;
+top: 80px;
+left: 470px;
+width: 600px;
+bottom: 80px;
+}
+
+.h1 { 
+float:left;
+height:25px;
+width: 90px;
+background-color: rgb(0,230,230);
+font:15px 'Maven Pro', sans-serif; 
+text-align:center;
+color: rgb(52,56,56);
+line-height: 150%;
+padding:5px;
+-webkit-transition:0.3s;
+}
+.h11 {
+float:left;
+width: 0;
+height: 0;
+border-bottom: 35px solid rgb(0,230,230);
+border-right: 35px solid transparent;
+margin-right: 5px;
+}
+.h1:hover {
+width:135px;
+}
+
+.h2 { 
+background-color: rgb(52,56,56);
+font: 15px 'Maven Pro', sans-serif; 
+color: rgb(52,56,56);
+margin-top: 15px;
+padding:1px;
+}
+
+
+blockquote {
+display: block;
+position:center;
+text-align: center;
+font: 12px 'Maven Pro', sans-serif; 
+color: rgb(85,85,85);
+background-color: rgba(240,240,240,0.7);
+padding: 5px; 
+}
+blockquote:before { 
+position:relative;
+top:-12px;
+content: "\275D";  
+float:left;
+color: rgb(0,140,158); 
+font-size: 25px; 
+}
+blockquote:after { 
+position: relative;
+bottom:10px;
+content: "\275E"; 
+float:right;
+color: rgb(0,140,158); 
+font-size: 25px;
+}
+
+.b { 
+display: block;
+border: 1px solid rgb(230,230,230);
+background-color: rgb(252,252,252);
+padding: 10px;
+}
+
+.l {
+position: fixed;
+left: 190px;
+top: 330px;
+height:20px;
+width:255px;
+background-color: rgb(0,230,230);
+}
+
+
+.p {
+position: fixed;
+top: 290px;
+left: 40px;
+border: 8px solid rgb(0,230,230);
+-webkit-border-radius: 500px 500px 500px 500px;
+}
+
+.navi {  
+}
+.navi1 {
+position: fixed;
+top:330px;
+left:230px;
+height:16px;
+width: 55px;
+display:inline-block;
+font: 13px 'Maven Pro', sans-serif; 
+padding: 2px;
+color: rgb(52,56,56);
+cursor: crosshair;
+-webkit-transition: 5s;
+}
+.navi1:hover { 
+color: rgba(0,255,255,5);
+}
+
+.navi2 {
+position: fixed;
+top:330px;
+left: 330px;
+height:16px;
+width: 55px;
+display:inline-block;
+font: 13px 'Maven Pro', sans-serif;
+padding: 2px;
+color: rgb(52,56,56);
+cursor: crosshair;
+-webkit-transition: 5s;
+}
+.navi2:hover { 
+color: rgba(0,255,255,5);
+}
+
+a.f {
+display: inline-block;
+font: 12px 'Maven Pro', sans-serif; 
+color: rgb(0,140,158);
+border-bottom: 3px solid rgb(0,180,204);
+padding: 2px;
+width: 80px;
+line-height: 150%;
+text-align: center;
+}
+a.f:hover {
+letter-spacing: 0px;
+color: rgb(0,140,158);
+border-bottom: 3px solid rgb(0,223,252);
+font-weight: normal;
+}
+
+
+a.tt {
+text-align: center;
+font: 13px 'Maven Pro', sans-serif;
+color: rgb(150,150,150);
+}
+a.tt:hover{
+letter-spacing:0px;
+}
+
+
+.m {
+position: fixed;
+top:310px;
+left: 390px;
+}
+
+.quota {
+position:fixed;
+top:360px;
+left:210px;
+width: 230px;
+font: 12px 'Maven Pro', sans-serif; 
+text-align: center;
+color: rgb(0,52,56);
+line-height: 21px;
+}
+
+
+.name {
+position:fixed;
+top:305px;
+left:200px;
+font: 20px 'Maven Pro', sans-serif; 
+font-weight:light;
+text-align: center;
+color: rgb(52,56,56);
+line-height: 21px;
+-webkit-transition:0.3s;
+}
+.name:hover {
+}
+
+
+img:hover {cursor: help;}
